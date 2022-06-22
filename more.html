@@ -23,32 +23,24 @@
    <link rel="stylesheet" href="js/plugins/colorpicker/bootstrap-colorpicker-plus.min.css">
 
    <link rel="stylesheet" type="text/css" href="css/dripicon.css" />
-
-
-
-
    <!--------------------------- custome css  -------------------->
    <link rel="stylesheet" type="text/css" href="css/style.css" />
    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-
    <!---------------------------- google font Poppins ----------------->
    <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet">
+   <style>
+      aside {
+         height: 200vh;
+      }
 
-      <style>
-         aside {
-            height: 200vh;
-         }
-   
-         footer {
-            background-color: #585858;
-            padding: 15px;
-         }
-      </style>
+      footer {
+         background-color: #585858;
+         padding: 15px;
+      }
+   </style>
    <!-------------------- end head -------------->
 </head>
 
@@ -64,7 +56,6 @@
          </div>
          <!-- Header Left -->
          <div class="header-right">
-
             <ul class="top-header-btns">
                <li class="dropdown">
                   <a class="login-user" data-toggle="dropdown" href="#" title=""> <img src="images/img1.jpg" alt="">
@@ -106,28 +97,6 @@
                      </a>
                   </div>
                </li>
-               <li class="dropdown">
-                  <a data-toggle="dropdown" href="#" title=""> <i class="icon dripicons-align-right"></i> </a>
-                  <div class="dropdown-menu  dropdown-menu-right">
-                     <a class="dropdown-item" href="dashboard.html">
-                        My Account
-                     </a>
-                     <!-- <div class="dropdown-divider"></div> -->
-                     <a class="dropdown-item" href="ChangePass.html">
-                        Change Password
-                     </a>
-                     <a class="dropdown-item" href="ChangePass.html">
-                        Project Details
-                     </a>
-                     <!-- <div class="dropdown-divider"></div> -->
-                     <div style="margin-top: 30px;">
-                        <a class="dropdown-item" href="#">
-                           <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
-                           <i class="fas fa-sign-out-alt"></i> Logout
-                       </a>
-                     </div>
-                  </div>
-               </li>
             </ul>
          </div>
          <!-- Header Right -->
@@ -138,10 +107,9 @@
          <div class="container">
             <div class="row">
                <div class="col-md-12">
-
                   <div class="tab-head-title">
-                        <h1>CMIT Solutions of Tribeca Dashboard > KPI</h1>
-                     </div>
+                     <h1>CMIT Solutions of Tribeca Dashboard > KPI</h1>
+                  </div>
                </div>
                <div class="col-md-12 col-3 tabs">
                   <ul class="head-menu">
@@ -175,7 +143,7 @@
                         </div>
 
                      </li>
-                     <li class="active">
+                     <li>
                         <div class="head-ic-bg">
                            <a href="sem.html">
                               <img src="./images/Artboard – 5.svg" class="inactive" alt="icons1">
@@ -187,7 +155,7 @@
                         </div>
                      </li>
                      <li>
-                        <div class="head-ic-bg">
+                        <div class="head-ic-bg ">
                            <a href="social.html">
                               <img src="./images/Artboard – 4.svg" class="inactive" alt="icons1">
                               <img src="./images/hover/Artboard – 17.svg" class="active" alt="icons1">
@@ -220,7 +188,7 @@
                            <p>Web</p>
                         </div>
                      </li>
-                     <li>
+                     <li class="active">
                         <div class="head-ic-bg">
                            <a href="./more.html">
                               <img src="./images/Artboard – 6.svg" class="inactive last____" alt="icons1">
@@ -240,35 +208,30 @@
       <div class="theme-content">
          <aside class="console-sidemenu active" id="sidemenu">
             <nav>
-                              <ul class="console-menu">
+               <!-- <div class="user logged-in">
+		                     <a class="login-user" href="#" title=""><img src="images/img1.jpg" alt=""></a>
+		                     <div class="user-detail">
+		                        <strong>Joyce Cabardo</strong>
+		                        <i>support@joyce.com</i>
+		                     </div>
+                           <i style="font-size: 20px; margin-top: 10px; cursor: pointer;" class="icon dripicons-align-right"></i> 
+		                  </div> -->
+               <ul class="console-menu">
                   <li class="menu-item-has-children" style="background-color: #26bcf2;">
-                     <a href="./sem.html" title=""> <span>Main PPC Stats</span></a>
+                     <a href="./more.html" title=""> <span>Project Details</span></a>
                   </li>
                   <li class="menu-item-has-children">
-                     <a href="./SEM/dailyTasks.html" title=""> <span>Daily Tasks</span></a>
+                     <a href="./More/myAccount.html" title=""> <span>My Account</span></a>
                   </li>
                   <li class="menu-item-has-children">
-                     <a href="./SEM/ActiveCampaign.html" title=""> <span>Active Campaign</span></a>
-                  </li>
-                  <li class="menu-item-has-children" >
-                     <a href="./SEM/VisitorsLocation.html" title=""> <span>Visitors Locations</span></a>
+                     <a href="./More/updateAccount.html" title=""> <span>Update Account</span></a>
                   </li>
                   <li class="menu-item-has-children">
-                     <a href="./SEM/QualityScores.html" title=""> <span>Quality Score High</span></a>
-                  </li>
-                  <li class="menu-item-has-children" >
-                     <a href="./SEM/QualityScoresLow.html" title=""> <span>Low Quality Score</span></a>
-                  </li>
-                  <li class="menu-item-has-children">
-                     <a href="./SEM/SearchTerms.html" title=""> <span>Search Terms</span></a>
-                  </li>
-                  <li class="menu-item-has-children">
-                     <a href="./SEM/CountryClicks.html" title=""> <span>Country Clicks</span></a>
-                  </li>
-                  <li class="menu-item-has-children">
-                     <a href="./SEM/DeviceUsers.html" title=""> <span>Device Users</span></a>
+                     <a href="./More/changePass.html" title=""> <span>Change Password</span></a>
                   </li>
                </ul>
+
+
             </nav>
          </aside>
          <!-- Console Sidemenu -->
@@ -280,68 +243,120 @@
                   </div>
                </div>
             </div>
-
-
             <div class="grid-stack body__wpr  gs-area">
                <div class="container-fluid">
                   <div class="row">
                      <div class="col-12 col-md-11">
-                        <div style="background-color: #d9f0fe;
-                                             width: 100%;
-                                             padding: 15px 15px;
-                                             
-                                             border-bottom: 5px solid #c5eafd;">
+                        <div class=""  style="background-color: #d9f0fe;
+                                                  width: 100%;
+                                                  padding: 15px 15px;
+                                                  border-bottom: 5px solid #c5eafd;">
                            <div class="res-header d-sm-block d-lg-none d-md-none text-center" style="margin-bottom: -10px;">
                               <p>KPI Advice Dashboard</p>
-                           </div>                  
+                           </div>                       
                            <div class="page-header d-none d-lg-block d-md-block">
-                              <h1 style="font-weight: 500;">SEM Main stats</h1>
-                           <p><< Project Name >> Stats</p>
+                              <h1 style="font-weight: 500;">Project Details</h1>
+                              <p>
+                                 << Project Name>> Stats
+                              </p>
+                           </div>
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div style="width: 100%; background-color: #333E50; padding-bottom: 120px;" class="gap-header">
+                  <div class="container-fluid">
+                     <div class="row">
+                        <div class="col-12 col-md-11" style="padding-left: 25px;">
+                           <h2
+                              style="font-style: italic; color: #AFC6A4; padding-top: 35px; font-size: 26px; margin-bottom: 25px;">
+                              Company
+                           </h2>
+
+                           <div>
+                              <div class="d-flex align-items-center" style="color: #C6CCD7;">
+                                 <h4 class="input-name" style="width: 25%; font-size: 15px">Company Logo</h4>
+                                 <div style="background-color: #D6D5DC; width: 100%; cursor: pointer;">
+                                    <input id="upload" type="file" hidden>
+                                    <label for="upload" class="pt-2 label-res"
+                                       style="font-size: 14px; color: #000; padding-left: .5rem;">Upload</label>
+                                 </div>
+                              </div>
+
+                              <div class="d-flex align-items-center" style="color: #C6CCD7; margin-top: 15px;">
+                                 <h4 class="input-name" style="width: 25%; font-size: 15px">Company Name</h4>
+                                 <div style="background-color: #D6D5DC; width: 100%; cursor: pointer;">
+                                    <input type="text" class="py-2 label-res"
+                                       style="font-size: 14px; color: #000; padding-left: .5rem; background-color: #D6D5DC; width: 100%; cursor: pointer; border: none;">
+                                 </div>
+                              </div>
+
+                              <div class="d-flex align-items-center" style="color: #C6CCD7; margin-top: 15px;">
+                                 <h4 class="input-name" style="width: 25%; font-size: 15px">Company Website Link</h4>
+                                 <div style="background-color: #D6D5DC; width: 100%; cursor: pointer;">
+                                    <input type="url" class="py-2 label-res"
+                                       style="font-size: 14px; color: #000; padding-left: .5rem; background-color: #D6D5DC; width: 100%; cursor: pointer; border: none;">
+                                 </div>
+                              </div>
+
+                              <div class="d-flex align-items-center" style="color: #C6CCD7; margin-top: 15px;">
+                                 <h4 class="input-name" style="width: 25%; font-size: 15px">Client Country</h4>
+                                 <div style="background-color: #D6D5DC; width: 100%; cursor: pointer;">
+                                    <input type="text" class="py-2 label-res"
+                                       style="font-size: 14px; color: #000; padding-left: .5rem; background-color: #D6D5DC; width: 100%; cursor: pointer; border: none;">
+                                 </div>
+                              </div>
+
+                              <div class="d-flex align-items-center" style="color: #C6CCD7; margin-top: 15px;">
+                                 <h4 class="input-name" style="width: 25%; font-size: 15px">Project Start Date</h4>
+                                 <div style="background-color: #D6D5DC; width: 100%; cursor: pointer;">
+                                    <input type="number" class="py-2 label-res"
+                                       style="font-size: 14px; color: #000; padding-left: .5rem; background-color: #D6D5DC; width: 100%; cursor: pointer; border: none;">
+                                 </div>
+                              </div>
+
+                              <div class="d-flex align-items-center" style="color: #C6CCD7; margin-top: 15px;">
+                                 <h4 class="input-name" style="width: 25%; font-size: 15px">Active Services</h4>
+                                 <div style="background-color: #D6D5DC; width: 100%; cursor: pointer;">
+                                    <input type="text" hidden class="py-2 label-res"
+                                       style="font-size: 14px; color: #000; padding-left: .5rem; background-color: #D6D5DC; width: 100%; cursor: pointer; border: none;">
+                                    <label style="font-size: 14px; color: #000; padding-left: .5rem;">Multi
+                                       dropdown<br />
+                                       (SEO, SEM, Web, Email, SMM)
+                                    </label>
+                                 </div>
+                              </div>
                            </div>
                         </div>
                      </div>
                   </div>
                </div>
-               <div style="min-height: 100%; width: 100%; text-align: center;" class="gap-header">
-                  <div class="container-fluid text-center">
-                     <div class="row">
-                        <div class="col-12 col-md-11">
-                           <div>
-                              <iframe
-                                 src="https://datastudio.google.com/embed/reporting/1Pcbfm3MQKl2teGS5JHSsOHm-VNn4LLZH/page/D47b"
-                                 frameborder="0" style="border:0" allowfullscreen></iframe>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+               <div class="text-center py-3 w-50 mx-auto mt-5" style="background-color: #4473C5; color: #ffffff;">
+                  <a href="#">Save Details</a>
                </div>
             </div>
-
          </div>
+
       </div>
-      <!-- Footer -->
-      <!-- Footer -->
-      <footer>
-         <div class="container">
-            <div class="row">
-               <div class="col-12 col-md-12 text-center d-flex justify-content-center align-content-center">
+   </div>
+   <!-- Footer -->
+   <!-- Footer -->
+   <!-- <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-12 col-md-12 text-center d-flex justify-content-center align-content-center">
                   <img width="30px" src="./img/Picture1.png" alt="" class="img-fluid mx-2">
                   <a style="color: rgb(185, 185, 185); text-decoration:none; margin-top: 5px;"
-                     href="www.organizein.com | KPI Dashboard Admin">
-                     www.organizein.com | KPI Dashboard Admin
+                      href="www.organizein.com | KPI Dashboard Admin">
+                      www.organizein.com | KPI Dashboard Admin
                   </a>
-               </div>
-            </div>
-         </div>
-      </footer>
+              </div>
+          </div>
+      </div>
+  </footer> -->
    </div>
-
-
-
-
-
-
-
+   
    <script src="js/jquerymain_jquerytouch_jquerycookies.js"></script>
    <script src="js/bootstrap_popper.min.js"></script>
    <script src="js/jquery_ui.min.js"></script>

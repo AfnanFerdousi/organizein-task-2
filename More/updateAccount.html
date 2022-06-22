@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta http-equiv="Content-Type" content=" charset=utf-8" />
+    <title>Repare this Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <!-- Styles -->
+    <!----------------------- bootstrap css ---------------- -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <!----------------------- grid stack css ---------------- -->
+    <link rel="stylesheet" href="../css/grid_stack.min.css" />
+
+
+
+    <!-------------------------- this plugin here  ------------------>
+    <link rel="stylesheet" href="js/plugins/jquery_confirm/jquery_confirm.css">
+
+    <link rel="stylesheet" href="js/plugins/colorpicker/bootstrap-colorpicker-plus.min.css">
+
+    <link rel="stylesheet" type="text/css" href="../css/dripicon.css" />
+    <!--------------------------- custome css  -------------------->
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/responsive.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!---------------------------- google font Poppins ----------------->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        aside {
+            height: 200vh;
+        }
+
+        footer {
+            background-color: #585858;
+            padding: 15px;
+        }
+    </style>
+    <!-------------------- end head -------------->
+</head>
+
+<body class="theme-body">
+    <div class="theme-wrapper">
+        <header>
+            <div class="header-left">
+                <div class="logo"><a href="../index.html">
+                        <img width="60px" id="logo_img" src="../img/organizein-logo-main-1.png" class="img-fluid"
+                            alt="">
+                    </a>
+                </div>
+                <!-- Logo -->
+            </div>
+            <!-- Header Left -->
+            <div class="header-right">
+
+                <ul class="top-header-btns">
+                    <li class="dropdown">
+                        <a class="login-user" data-toggle="dropdown" href="#" title=""> <img src="../images/img1.jpg"
+                                alt="">
+                        </a>
+                        <div class="dropdown-menu  dropdown-menu-right">
+                            <a class="dropdown-item" href="./updateAccount.html">
+                                <ion-icon ios="ios-contact" md="md-contact"></ion-icon>
+                                <i class="fas fa-user"></i> Profile
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">
+                                <ion-icon ios="ios-mail" md="md-mail"></ion-icon>
+                                <i class="fas fa-cog"></i> Project Setting
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">
+                                <ion-icon ios="ios-aperture" md="md-aperture"></ion-icon>
+                                <i class="fas fa-database"></i> Billing and Membership
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">
+                                <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
+                                <i class="fab fa-buffer"></i> Feedback or Suggest a feature
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">
+                                <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
+                                <i class="fas fa-user-cog"></i> User access management
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">
+                                <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
+                                <i class="far fa-question-circle"></i> Help Center
+                            </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">
+                                <ion-icon ios="ios-log-out" md="md-log-out"></ion-icon>
+                                <i class="fas fa-sign-out-alt"></i> Logout
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Header Right -->
+        </header>
+        <!-- Header -->
+        <!-- TABING HEADER -->
+        <div id="tabing-head">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="tab-head-title">
+                            <h1>CMIT Solutions of Tribeca Dashboard > KPI</h1>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-3 tabs">
+                        <ul class="head-menu">
+                            <li>
+                                <div class="head-ic-bg icon-f">
+                                    <style>
+                                        li.active img.inactive {
+                                            display: none;
+                                        }
+                                    </style>
+                                    <a href="../index.html">
+                                        <img src="../images/Artboard – 1.svg" class="inactive" alt="icons1">
+                                        <img src="../images/hover/Artboard – 12.svg" class="active" alt="icons1">
+                                    </a>
+                                </div>
+                                </a>
+                                <div class="head-title">
+                                    <p>KPI</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="head-ic-bg">
+
+                                    <a href="../SEO.html">
+                                        <img src="../images/Artboard – 3.svg" class="inactive" alt="icons1">
+                                        <img src="../images/hover/Artboard – 18.svg" class="active" alt="icons1">
+                                </div>
+                                </a>
+                                <div class="head-title">
+                                    <p>SEO</p>
+                                </div>
+
+                            </li>
+                            <li>
+                                <div class="head-ic-bg">
+                                    <a href="../sem.html">
+                                        <img src="../images/Artboard – 5.svg" class="inactive" alt="icons1">
+                                        <img src="../images/hover/Artboard – 16.svg" class="active" alt="icons1">
+                                    </a>
+                                </div>
+                                <div class="head-title">
+                                    <p>SEM</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="head-ic-bg ">
+                                    <a href="../social.html">
+                                        <img src="../images/Artboard – 4.svg" class="inactive" alt="icons1">
+                                        <img src="../images/hover/Artboard – 17.svg" class="active" alt="icons1">
+                                    </a>
+                                </div>
+                                <div class="head-title">
+                                    <p>Social</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="head-ic-bg">
+
+                                    <a href="../mail.html">
+                                        <img src="../images/Artboard – 2.svg" class="inactive" alt="icons1">
+                                        <img src="../images/hover/Artboard – 13.svg" class="active" alt="icons1"></svg>
+                                    </a>
+                                </div>
+                                <div class="head-title">
+                                    <p>Mail</p>
+                                </div>
+                            </li>
+                            <li class="active">
+                                <div class="head-ic-bg">
+                                    <a href="../web.html">
+                                        <img src="../images/Artboard – 9.svg" class="inactive" alt="icons1">
+                                        <img src="../images/hover/Artboard – 10.svg" class="active" alt="icons1">
+                                    </a>
+                                </div>
+                                <div class="head-title">
+                                    <p>Web</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="head-ic-bg">
+                                    <a href="../more.html">
+                                        <img src="../images/Artboard – 6.svg" class="inactive last____" alt="icons1">
+                                        <img src="../images/hover/Artboard – 15.svg" class="active last____"
+                                            alt="icons1">
+                                        </svg>
+                                    </a>
+                                </div>
+                                <div class="head-title">
+                                    <p>More</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="theme-content">
+            <aside class="console-sidemenu active" id="sidemenu">
+                <nav>
+                    <!-- <div class="user logged-in">
+		                     <a class="login-user" href="#" title=""><img src="images/img1.jpg" alt=""></a>
+		                     <div class="user-detail">
+		                        <strong>Joyce Cabardo</strong>
+		                        <i>support@joyce.com</i>
+		                     </div>
+                           <i style="font-size: 20px; margin-top: 10px; cursor: pointer;" class="icon dripicons-align-right"></i> 
+		                  </div> -->
+                    <ul class="console-menu">
+                        <li class="menu-item-has-children">
+                            <a href="../more.html" title=""> <span>Project Details</span></a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="./myAccount.html" title=""> <span>My Account</span></a>
+                        </li>
+                        <li class="menu-item-has-children" style="background-color: #26bcf2;">
+                            <a href="./updateAccount.html" title=""> <span>Update Account</span></a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="./changePass.html" title=""> <span>Change Password</span></a>
+                        </li>
+                    </ul>
+
+
+                </nav>
+            </aside>
+            <!-- Console Sidemenu -->
+            <div class="content-area">
+                <div id="toparea" class="style1">
+                    <div class="console-dashboard-title">
+                        <div>
+                            <!-- <h1 style="font-weight: 500;">Membership</h1> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-stack body__wpr  gs-area">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 col-md-11">
+                                <div style="background-color: #d9f0fe;
+                                                  width: 100%;
+                                                  padding: 15px 15px;
+                                                  
+                                                  border-bottom: 5px solid #c5eafd;">
+                                    <div class="res-header d-sm-block d-lg-none d-md-none text-center"
+                                        style="margin-bottom: -10px;">
+                                        <p>KPI Advice Dashboard</p>
+                                    </div>
+                                    <div class="page-header d-none d-lg-block d-md-block">
+                                        <h1 style="font-weight: 500;">Update Details</h1>
+                                        <p>
+                                            << Project Name>> Stats
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width: 100%; background-color: #333E50;" class="gap-header">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-12 col-md-11 mb-5" style="padding-left: 25px;">
+                                    <h2 class="text-center"
+                                        style="color: #FAFFFF; padding-top: 10px; font-size: 30px; margin-bottom: 45px;">
+                                        Update Details</h2>
+                                    <!-- <h2 style="font-style: italic; color: #AFC6A4; padding-top: 35px; font-size: 26px; margin-bottom: 25px;">Personal
+                         </h2> -->
+
+                                    <div>
+                                        <div class="d-flex align-items-center"
+                                            style="color: #C6CCD7; margin-top: 15px;">
+                                            <h4 class="input-name" style="width: 25%; font-size: 15px">Email</h4>
+                                            <div style="background-color: #D6D5DC; width: 100%; cursor: pointer;">
+                                                <input type="email" class="py-2 label-res"
+                                                    style="font-size: 14px; color: #000; padding-left: .5rem; background-color: #D6D5DC; width: 100%; cursor: pointer; border: none;">
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex align-items-center"
+                                            style="color: #C6CCD7; margin-top: 15px;">
+                                            <h4 class="input-name" style="width: 25%; font-size: 15px">Change Password
+                                            </h4>
+                                            <div style="background-color: #D6D5DC; width: 100%; cursor: pointer;">
+                                                <input type="text" class="py-2 label-res"
+                                                    style="font-size: 14px; color: #000; padding-left: .5rem; background-color: #D6D5DC; width: 100%; cursor: pointer; border: none;">
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex align-items-center"
+                                            style="color: #C6CCD7; margin-top: 15px;">
+                                            <h4 class="input-name" style="width: 25%; font-size: 15px">Client Logo</h4>
+                                            <div style="background-color: #D6D5DC; width: 100%; cursor: pointer;">
+                                                <input id="upload" type="file" hidden>
+                                                <label for="upload" class="pt-2 label-res"
+                                                    style="font-size: 14px; color: #000; padding-left: .5rem;">Upload</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex align-items-center"
+                                            style="color: #C6CCD7; margin-top: 15px;">
+                                            <h4 class="input-name" style="width: 25%; font-size: 15px">Client Profile
+                                                image</h4>
+                                            <div style="background-color: #D6D5DC; width: 100%; cursor: pointer;">
+                                                <input id="upload" type="file" hidden>
+                                                <label for="upload" class="pt-2 label-res"
+                                                    style="font-size: 14px; color: #000; padding-left: .5rem;">Upload</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center py-3 w-50 mx-auto mt-5" style="background-color: #4473C5; color: #ffffff;">
+                        <a href="#">Save Details</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Footer -->
+    <!-- Footer -->
+    <!-- <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-12 col-md-12 text-center d-flex justify-content-center align-content-center">
+                  <img width="30px" src="./img/Picture1.png" alt="" class="img-fluid mx-2">
+                  <a style="color: rgb(185, 185, 185); text-decoration:none; margin-top: 5px;"
+                      href="www.organizein.com | KPI Dashboard Admin">
+                      www.organizein.com | KPI Dashboard Admin
+                  </a>
+              </div>
+          </div>
+      </div>
+  </footer> -->
+    </div>
+    <script src="js/jquerymain_jquerytouch_jquerycookies.js"></script>
+    <script src="js/bootstrap_popper.min.js"></script>
+    <script src="js/jquery_ui.min.js"></script>
+    <script src="js/grid_stack_pack.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>
